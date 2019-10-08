@@ -17,32 +17,50 @@
 </head>
 <body class="text-center pb-5">
 <h1 class="mt-lg-5">Green Hopper Photography</h1>
-<ul class="nav justify-content-center">
-	<li class="nav-item">
-		<a class="nav-link" href="/">Welcome</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="/Weddings">Weddings</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="/Lifestyle">Lifestyle</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="/Adventure">Adventure</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link active" href="/About">About</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="/Contact">Contact</a>
-	</li>
-</ul>
+<div class="d-none d-md-inline">
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="/">Welcome</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/Weddings">Weddings</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/Lifestyle">Lifestyle</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/Adventure">Adventure</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="/About">About</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/Contact">Contact</a>
+		</li>
+	</ul>
+</div>
+<div class="d-md-none">
+	<div class="dropdown">
+		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			About
+		</button>
+
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			<a class="dropdown-item" href="/">Welcome</a>
+			<a class="dropdown-item" href="/Weddings">Weddings</a>
+			<a class="dropdown-item" href="/Lifestyle">Lifestyle</a>
+			<a class="dropdown-item" href="/Adventure">Adventure</a>
+			<a class="dropdown-item" href="/About">About</a>
+			<a class="dropdown-item" href="/Contact">Contact</a>
+		</div>
+	</div>
+</div>
 
 <footer class="fixed-bottom">Created by <a href="http://greenhopperdesign.com">Green Hopper Design</a></footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/jquery.slim.js"></script>
 <script src="/js/popper.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 </body>
