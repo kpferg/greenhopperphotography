@@ -1,0 +1,45 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+$font-family-base: 'Montserrat', sans-serif;
+$body-bg: #ccc;
+$link-color: #208036;
+$link-hover-color: darken($link-color, 15%); //green
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.nav {
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  margin-bottom: 0;
+  border-top: solid 3px #aaa;
+
+  &.active {
+    border-top: solid 3px $link-color;
+  }
+}
+
+.carousel.slide {
+  max-width: 1000px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: darken($body-bg, 15%);
+  padding: 10px;
+  color: #ccc;
+  text-align: right;
+
+  a {
+    font-weight: 700;
+  }
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: auto;
+}
