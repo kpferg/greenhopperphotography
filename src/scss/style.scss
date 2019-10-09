@@ -2,7 +2,7 @@
 @import "node_modules/bootstrap/scss/variables";
 
 $font-family-base: 'Montserrat', sans-serif;
-$body-bg: #ccc;
+$body-bg: #eee;
 $link-color: #208036;
 $link-hover-color: darken($link-color, 15%); //green
 
@@ -24,13 +24,19 @@ $link-hover-color: darken($link-color, 15%); //green
 
 .carousel.slide {
   max-width: 1000px;
+
+  @media screen and (min-width: 1000px) {
+    img {
+      border-radius: 30px;
+    }
+  }
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: darken($body-bg, 25%);
+  background-color: darken($body-bg, 65%);
   padding: 5px 10px;
   color: #ddd;
   text-align: right;
