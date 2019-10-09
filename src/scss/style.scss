@@ -30,8 +30,8 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: darken($body-bg, 15%);
-  padding: 10px;
-  color: #ccc;
+  padding: 5px 10px;
+  color: #ddd;
   text-align: right;
 
   a {
@@ -42,4 +42,9 @@ footer {
 .contact-form {
   max-width: 700px;
   margin: auto;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 40px auto;
 }

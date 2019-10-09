@@ -7049,8 +7049,8 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #a6a6a6;
-  padding: 10px;
-  color: #ccc;
+  padding: 5px 10px;
+  color: #ddd;
   text-align: right; }
   footer a {
     font-weight: 700; }
@@ -7058,3 +7058,7 @@ footer {
 .contact-form {
   max-width: 700px;
   margin: auto; }
+
+.about-text {
+  max-width: 600px;
+  margin: 40px auto; }
