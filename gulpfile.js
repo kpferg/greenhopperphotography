@@ -35,7 +35,7 @@ gulp.task('clean', function(){
 });
 
 gulp.task('dist', function(){
-	return gulp.src(['src/*', '!src/scss'])
+	return gulp.src(['src/**', '!src/scss'])
 		.pipe(gulp.dest("dist"));
 });
 
