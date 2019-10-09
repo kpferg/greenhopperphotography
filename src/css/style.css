@@ -7037,7 +7037,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-link {
   margin-bottom: 0;
-  border-top: solid 3px #aaa; }
+  border-top: solid 3px #aaa;
+  font-size: 1.3rem; }
   .nav-link.active {
     border-top: solid 3px #208036; }
 
@@ -7048,7 +7049,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #a6a6a6;
+  background-color: #8c8c8c;
   padding: 5px 10px;
   color: #ddd;
   text-align: right; }
