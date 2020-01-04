@@ -1,12 +1,12 @@
-@import "/node_modules/bootstrap/scss/functions";
-@import "/node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
 
 $font-family-base: 'Montserrat', sans-serif;
 $body-bg: #eee;
 $link-color: #208036;
 $link-hover-color: darken($link-color, 15%); //green
 
-@import "/node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 .nav {
   margin-bottom: 15px;
